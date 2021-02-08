@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화살표</title>
+</head>
+<body>
+    <script>
+        /*
+        make() 
+        function make(){
+            console.log('test1')
+        }
+        */
+      
+       make = () => {
+           console.log('test1')
+       }
+       make()
+       /*
+       function make1(num1){
+           console.log(`Test2 ${num1}`)
+       }
+       make1(10)
+       */
+       make1 = ( num1 ) => {
+           console.log(`Test ${num1}`)
+       }
+       make1(10)
+
+       make2 = (num1, num2, num3) => {
+           console.log( num1 + num2 +num3 )
+       }
+       make2( 10, 20, 30)
+       /*
+       function make3 ( num1 , num2) {
+           return num1+num2
+       }
+       const result1 = make3( 10 , 20)
+       console.log( result1 )
+       */
+       make3 = ( num1 , num2) => {
+           return num1+num2
+       }
+       const result1 = make3( 10 , 20)
+       console.log( result1 )
+    </script>
+</body>
+</html>

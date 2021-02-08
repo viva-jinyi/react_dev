@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const dog = {
+            name:'치치와' ,
+            age :5 ,
+            sex :'남자'
+        }
+        console.log( dog.name, dog.age , dog.sex )
+        const {name , age , sex } = dog 
+        console.log( name , age , sex )
+
+        const data = {a : 1, b:2 , c:3 , d:4 }
+        console.log( data.a , data.b, data.c, data.d)
+        const {a , b , c, d } = data //비구조할당 
+        console.log( a , b , c, d)
+    </script>
+</body>
+</html>

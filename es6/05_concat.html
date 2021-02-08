@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>push, concat:불변성유지</title>
+</head>
+<body>
+    <script>
+        let arr1 = [ 10,20,30,40,50 ]
+        arr1.push(60)
+        arr1.push(70)
+        arr1.push(80)
+        console.log( arr1 )
+
+        let arr2 = [ 10,20,30,40,50 ]
+        const arr3 = arr2.concat(100, 200)
+        console.log(arr2) 
+        console.log(arr3) 
+
+        const data = [
+            {id:1, name:'홍길동',age:20},
+            {id:2 , name:'유재석',age:30},
+            {id:3 , name:'이효리',age :10}
+        ]
+        const data1 = data.concat({id:4, name:'강호동',age:40})
+
+        console.log( data )
+        console.log( data1 )
+    </script>
+</body>
+</html>

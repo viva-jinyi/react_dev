@@ -1,0 +1,6 @@
+.Test6 {}
+.Test6 p { font-size:25px; line-height: 40px; margin-bottom:15px }
+.Test6 .test {background:yellow}
+.Test6 .test.on {background:pink}
+.Test6 .on {background:skyblue}
+.Test6 button { padding:15px 25px}

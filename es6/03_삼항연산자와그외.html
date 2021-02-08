@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼항연산자와 &&  || 연산자</title>
+</head>
+<body>
+    <script>
+        const done = true 
+        const done1 = undefined
+
+        const result1 = done === true ? '참':'거짓'
+        console.log(result1)
+
+        const result2 = done ? '참':'거짓'
+        console.log(result2)
+
+        const result3 = done === true && '참값'
+        console.log( result3 )
+
+        const result4 = done1 || '거짓값'
+        console.log( result4)
+
+    </script>
+</body>
+</html>

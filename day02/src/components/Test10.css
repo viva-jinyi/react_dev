@@ -1,0 +1,9 @@
+*{ margin:0; padding:0 }
+li { list-style: none;}
+
+.Test10 { width:1200px; margin:30px auto }
+.Test10 ul {display:flex; flex-direction: row; flex-wrap: wrap }
+.Test10 ul li {margin:10px; padding:5px; border:1px solid #dcdcdc}
+.Test10 ul li img { width:250px; height:300px }
+.Test10 ul li h3 {font-size:18px; font-weight: 600; margin:15px 0}
+.Test10 ul li p {font-size: 16px;}

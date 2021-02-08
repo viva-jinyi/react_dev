@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter : 데이터 삭제 ?</title>
+</head>
+<body>
+    <script>
+        const arr1 = [10,20,30,40,50]
+        const result1 = arr1.find(item => item >30 )
+        console.log( result1 )
+        const data = [
+            {id:1 ,name :'홍길동', age:20} ,
+            {id:2 ,name :'강호동', age:30} ,
+            {id:3 ,name :'유재석', age:10} ,
+            {id:4 ,name :'제시', age:40} ,
+            {id:5 ,name :'이효리', age:5} ,
+        ]
+        const result2 = data.find( item => item.id === 2)
+        console.log( result2 )
+
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스프레드연산자 ... : 복사(=concat) , 값 교체 </title>
+</head>
+<body>
+    <script>
+        const arr = ['강아지','고양이','소']
+        const arr1 = [...arr] //복사 
+        const arr2 = arr.concat() 
+
+        console.log(arr1)
+        console.log(arr2)
+
+        const data = {
+            name:'치치와' , age:3 , sex:'남자'
+        }
+        
+        //복사해와서 특정대사의 값을 바꿀때 
+        const data1 = { ...data , name:'강아지', sex:'여자'}
+        console.log( data1 )
+
+    </script>
+</body>
+</html>

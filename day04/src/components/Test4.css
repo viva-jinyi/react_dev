@@ -1,0 +1,9 @@
+.Test4 {}
+.Test4 div { width:400px; padding:20px; border:1px solid #000;}
+.Test4 div ul { margin-bottom:20px }
+.Test4 div ul li { line-height: 45px; font-size:16px; border-bottom:1px solid #dcdcdc ; padding: 10px 0;}
+.Test4 div ul li  span { display:inline-block; width:100px }
+.Test4 div label { display:inline-block; width:80px}
+.Test4 div input { height:40px ; border:1px solid #dcdcdc; width:300px; margin-left: 5px;}
+.Test4 div p {}
+.Test4 div p button { width:100px; height:50px; background:#000; color:#fff }
